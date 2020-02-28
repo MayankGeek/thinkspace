@@ -1,7 +1,7 @@
 # Site settings
 title_left    : "Mayank "
-title_right   : "Sharma " # default: ""
-description   : "Minimalist Jekyll theme for technical writing blog."
+title_right   : "Sharma 🖱" # default: ""
+description   : ""
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, thinkspace"
 url           : https://heiswayi.github.io/thinkspace # site url
 baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
