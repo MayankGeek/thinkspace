@@ -56,14 +56,14 @@ hr {
 
 .link {
   padding-bottom: .05em;
-  border-bottom: 2px solid transparent;
+  border-bottom: 2px;
 
   @include transition(border 300ms linear);
 
   &:hover,
   &:focus,
   &:active {
-    border-bottom: 2px solid $blue-color;
+    
   }
 }
 
