@@ -10,5 +10,5 @@ permalink: /projects/
     <p>⚫ <a href="{{ '/work/api' | prepend: site.baseurl | prepend: site.url }}">LearnPY</a></p>
     <p>⚫ <a href="{{ '/work/webapp' | prepend: site.baseurl | prepend: site.url }}">Blogit!</a></p>
   <br>
-</section>
+
 
