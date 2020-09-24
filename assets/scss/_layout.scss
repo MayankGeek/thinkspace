@@ -5,9 +5,6 @@
     box-sizing: border-box;
   }
 }
-.page h1.format-icon:before {
-content: none;
-}
 
 html,
 body {
@@ -93,6 +90,20 @@ hr {
   }
 }
 
+.author-image {
+  border-radius: 50%;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.author-image:hover {
+  box-shadow: 0 7px 14px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
 .logo {
   float: left;
   margin: 0 0 1em 0;
@@ -118,10 +129,11 @@ hr {
   padding: 0;
   pointer-events: all;
   cursor: pointer;
-
+  
   li {
     display: inline-block;
     padding: 0 .6em;
+
   }
 
   a {
@@ -135,6 +147,22 @@ hr {
   &:first-child {
     margin-top: 0;
   }
+}
+
+/*
+
+.post-content {
+  font-family: Inconsolata;
+}
+
+*/
+
+.lyrics {
+  text-align: center;
+  font-style: italic;
+  font-size: 16px;
+  color: grey;
+  width: 60%;
 }
 
 .post-item {
@@ -174,6 +202,10 @@ hr {
   margin-top: 0;
   margin-bottom: 1em;
   color: $dark-gray-color;
+}
+
+.post-update {
+  font-size: 12px;
 }
 
 .post-link,
@@ -266,6 +298,49 @@ hr {
   margin-top: $base-spacing * 2;
 }
 
+.img-blog {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  color: #001f3f;
+  margin-top: 20px;
+  background: #ADD100;
+}
+
+.fimage {
+  width: 70%;
+}
+
+.fimage-days {
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.darkmode-para {
+  float: right;
+}
+
+.quote-area {
+  padding:20px;
+}
+
+.quote-author {
+  float: right;
+  font-weight: bolder;
+}
+
+.book-name {
+  float: left;
+}
 // This applies from 0px to 600px
 @media (max-width: 600px) {
   .date-label {
@@ -294,4 +369,9 @@ hr {
       color: $blue-color;
     }
   }
+
+  .nav {
+    min-height: 130px;
+  }
 }
+
