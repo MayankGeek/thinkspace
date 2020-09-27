@@ -5,9 +5,9 @@ permalink: /projects/
 ---
 <br>
 - [MathSearch](https://)  <br>
-Django based webapp to get anwer to math question right from the browser.<br>
+A computational engine that answers mathematical queries directly by computing the answer.<br>
 
-- [LearnPy](https://) <br> An online code editor built with strong focus on helping poeple to learn & code Python.
+- [LearnPy](https://) <br> An online code editor built with a strong focus on helping others learn & code Python.
 
 - [Blogit!](https://) <br> Django based webapp to share post.
 
